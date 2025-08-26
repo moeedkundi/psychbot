@@ -1,0 +1,202 @@
+role: "data_scientist"
+levels:
+  junior:
+    dimensions:
+      - name: "technical_knowledge"
+        weight: 0.30
+        description: "Understanding of fundamental data science concepts and statistical methods"
+        criteria:
+          excellent: "Demonstrates solid grasp of statistics, probability, and basic ML concepts. Can explain complex ideas simply. Shows understanding of when to apply different techniques."
+          good: "Shows good understanding of core concepts with minor gaps. Can apply basic statistical tests and ML algorithms correctly."
+          fair: "Basic understanding of fundamentals but struggles with nuanced applications. May confuse related concepts."
+          poor: "Limited understanding of core concepts. Cannot explain basic statistical or ML principles clearly."
+      
+      - name: "programming_skills"
+        weight: 0.25
+        description: "Proficiency in Python/R for data manipulation and analysis"
+        criteria:
+          excellent: "Writes clean, efficient code. Proficient with pandas, numpy, sklearn. Can implement algorithms from scratch. Good debugging skills."
+          good: "Comfortable with data manipulation libraries. Can write functional code with some optimization opportunities."
+          fair: "Can perform basic operations but code may be inefficient. Limited library knowledge."
+          poor: "Struggles with basic programming concepts. Cannot complete simple coding tasks."
+      
+      - name: "problem_solving"
+        weight: 0.20
+        description: "Ability to approach and structure data problems"
+        criteria:
+          excellent: "Breaks down complex problems systematically. Identifies key assumptions and limitations. Proposes multiple solution approaches."
+          good: "Can structure problems well. Identifies main issues but may miss edge cases."
+          fair: "Approaches problems but may lack structure. Needs guidance on methodology."
+          poor: "Cannot break down problems effectively. Jumps to solutions without analysis."
+      
+      - name: "communication"
+        weight: 0.15
+        description: "Ability to explain technical concepts and findings"
+        criteria:
+          excellent: "Explains complex concepts clearly to any audience. Creates compelling visualizations. Tells data stories effectively."
+          good: "Communicates findings well. Visualizations are clear but may lack polish."
+          fair: "Can communicate basic findings but explanations may be unclear or too technical."
+          poor: "Struggles to explain work. Poor visualization choices. Cannot adapt to audience."
+      
+      - name: "tools_proficiency"
+        weight: 0.05
+        description: "Familiarity with data science tools and platforms"
+        criteria:
+          excellent: "Proficient with Jupyter, Git, SQL basics, and visualization tools. Quick to learn new tools."
+          good: "Comfortable with core tools. May need guidance on advanced features."
+          fair: "Basic familiarity with common tools. Needs support for setup and configuration."
+          poor: "Limited tool exposure. Struggles with basic operations."
+      
+      - name: "data_ethics"
+        weight: 0.05
+        description: "Understanding of ethical considerations and best practices"
+        criteria:
+          excellent: "Understands bias, fairness, and privacy concerns. Proactively considers ethical implications."
+          good: "Aware of main ethical issues. Considers bias in model development."
+          fair: "Basic awareness of ethics but may not actively consider in work."
+          poor: "Limited understanding of ethical considerations in data science."
+
+  mid:
+    dimensions:
+      - name: "technical_knowledge"
+        weight: 0.25
+        description: "Deep understanding of ML algorithms and advanced statistical methods"
+        criteria:
+          excellent: "Expert knowledge of various ML algorithms, their math, and trade-offs. Can implement complex algorithms. Strong statistical foundation including causal inference."
+          good: "Solid understanding of common algorithms and their applications. Good grasp of statistical testing and experimental design."
+          fair: "Understands standard algorithms but may struggle with advanced concepts or mathematical foundations."
+          poor: "Gaps in understanding of core ML concepts. Cannot explain algorithm choices or trade-offs."
+      
+      - name: "programming_skills"
+        weight: 0.20
+        description: "Advanced programming for production-ready solutions"
+        criteria:
+          excellent: "Writes production-quality code with testing and documentation. Optimizes for performance. Can work with APIs and cloud services. Strong SQL skills."
+          good: "Writes clean, maintainable code. Good optimization skills. Comfortable with databases and basic cloud services."
+          fair: "Functional code but may lack optimization or best practices. Basic SQL and cloud knowledge."
+          poor: "Code quality issues. Cannot write production-ready solutions. Limited database skills."
+      
+      - name: "problem_solving"
+        weight: 0.20
+        description: "Complex problem-solving and solution design"
+        criteria:
+          excellent: "Designs end-to-end solutions considering constraints and trade-offs. Validates assumptions rigorously. Creative problem-solving with business context."
+          good: "Develops solid solutions with good validation. Considers multiple approaches and edge cases."
+          fair: "Can solve standard problems but may miss complexities. Solutions may lack robustness."
+          poor: "Struggles with complex problems. Solutions are incomplete or impractical."
+      
+      - name: "communication"
+        weight: 0.15
+        description: "Stakeholder management and technical leadership"
+        criteria:
+          excellent: "Influences decision-making through compelling data stories. Manages stakeholder expectations expertly. Mentors junior team members effectively."
+          good: "Communicates complex findings clearly. Good stakeholder relationships. Provides helpful guidance to others."
+          fair: "Adequate communication but may struggle with difficult stakeholders or complex explanations."
+          poor: "Poor stakeholder management. Cannot translate technical work to business value."
+      
+      - name: "tools_proficiency"
+        weight: 0.10
+        description: "Expertise with ML platforms and production tools"
+        criteria:
+          excellent: "Expert with cloud ML platforms, Docker, MLflow, and monitoring tools. Can set up complete ML pipelines."
+          good: "Proficient with major ML tools and platforms. Can deploy models with some guidance."
+          fair: "Familiar with common tools but needs support for advanced features or production deployment."
+          poor: "Limited experience with production ML tools. Cannot deploy models independently."
+      
+      - name: "data_ethics"
+        weight: 0.10
+        description: "Implementation of responsible AI practices"
+        criteria:
+          excellent: "Implements fairness metrics, bias mitigation, and privacy preservation. Champions ethical practices in team."
+          good: "Actively considers and addresses ethical issues. Implements basic fairness checks."
+          fair: "Aware of ethical issues but implementation may be inconsistent."
+          poor: "Limited consideration of ethical implications. No practical implementation of responsible AI."
+
+  senior:
+    dimensions:
+      - name: "technical_knowledge"
+        weight: 0.20
+        description: "Cutting-edge expertise and thought leadership"
+        criteria:
+          excellent: "Deep expertise across ML/DL/stats. Contributes to research or open source. Can design novel solutions. Expert in specialized domains."
+          good: "Broad and deep technical knowledge. Stays current with latest developments. Can tackle any technical challenge."
+          fair: "Strong in core areas but may have gaps in emerging technologies or specialized domains."
+          poor: "Technical knowledge not at senior level. Cannot provide technical leadership or solve novel problems."
+      
+      - name: "programming_skills"
+        weight: 0.15
+        description: "System design and architecture expertise"
+        criteria:
+          excellent: "Designs scalable ML systems. Optimizes for performance at scale. Creates reusable frameworks. Deep understanding of distributed systems."
+          good: "Can architect complex systems. Good understanding of scalability and performance. Writes high-quality, maintainable code."
+          fair: "Can build systems but may not optimize for scale. Architecture decisions may lack sophistication."
+          poor: "Cannot design large-scale systems. Code and architecture do not meet senior standards."
+      
+      - name: "problem_solving"
+        weight: 0.20
+        description: "Strategic thinking and innovation"
+        criteria:
+          excellent: "Identifies and solves ambiguous business problems. Innovates new approaches. Balances technical excellence with business value. Drives strategic initiatives."
+          good: "Solves complex, ambiguous problems. Good strategic thinking. Can identify high-impact opportunities."
+          fair: "Solves well-defined complex problems but may struggle with ambiguity or strategic thinking."
+          poor: "Cannot handle ambiguous problems. Lacks strategic perspective. Solutions don't align with business goals."
+      
+      - name: "communication"
+        weight: 0.20
+        description: "Executive communication and influence"
+        criteria:
+          excellent: "Influences C-level decisions. Builds data culture. Exceptional presenter. Translates complex technical concepts to business strategy."
+          good: "Communicates effectively with executives. Good influence on technical decisions. Clear technical writing and presentation."
+          fair: "Can communicate with leadership but may lack influence. Presentations may be too technical or miss business implications."
+          poor: "Cannot communicate effectively at executive level. Limited influence on decisions."
+      
+      - name: "tools_proficiency"
+        weight: 0.10
+        description: "Platform expertise and tool selection"
+        criteria:
+          excellent: "Expert across multiple platforms. Can evaluate and select optimal tools. Drives tool adoption and best practices across organization."
+          good: "Deep expertise with major platforms. Can make informed tool selections. Establishes team standards."
+          fair: "Proficient with standard tools but may lack breadth or depth for architectural decisions."
+          poor: "Tool knowledge not sufficient for senior role. Cannot guide platform decisions."
+      
+      - name: "data_ethics"
+        weight: 0.15
+        description: "Leadership in responsible AI and governance"
+        criteria:
+          excellent: "Establishes ethical frameworks and governance. Drives responsible AI initiatives. Balances innovation with risk. Thought leader in AI ethics."
+          good: "Champions ethical practices. Implements governance processes. Good understanding of regulatory requirements."
+          fair: "Considers ethics but may not drive initiatives. Basic understanding of governance needs."
+          poor: "Does not prioritize ethical considerations. Cannot establish governance frameworks."
+
+evaluation_process:
+  preparation:
+    - Review candidate resume and portfolio
+    - Select appropriate question difficulty mix
+    - Prepare domain-specific scenarios
+    - Set up technical environment if needed
+  
+  interview_structure:
+    - Technical screen (45-60 minutes)
+    - Coding assessment (60-90 minutes)
+    - System design (45-60 minutes, mid/senior only)
+    - Behavioral interview (30-45 minutes)
+    - Case study presentation (60 minutes, senior only)
+  
+  scoring:
+    - Rate each dimension on 1-4 scale (poor to excellent)
+    - Apply weights to calculate overall score
+    - Document specific examples and observations
+    - Compare against level-appropriate benchmarks
+  
+  decision_criteria:
+    hire_strong: "Overall score >= 3.5 with no dimension below 'good'"
+    hire_standard: "Overall score >= 3.0 with max one dimension at 'fair'"
+    maybe: "Overall score >= 2.5, consider for different level or with development plan"
+    no_hire: "Overall score < 2.5 or multiple dimensions at 'poor'"
+
+calibration_notes:
+  - Adjust expectations based on specific role requirements and team needs
+  - Consider domain expertise as modifier for specialized positions
+  - Factor in growth potential and learning agility
+  - Balance technical skills with cultural fit and soft skills
+  - Review and update rubric quarterly based on hiring outcomes

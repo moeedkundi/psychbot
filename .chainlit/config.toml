@@ -1,0 +1,51 @@
+[project]
+# Name of the app and chatbot.
+name = "AI Interview Coach"
+description = "Your intelligent technical interview preparation assistant"
+author = "AI Interview Coach Team"  
+version = "2.0"
+icon = "🚀"
+
+# Chainlit server host
+host = "0.0.0.0"
+# Chainlit server port  
+port = 8080
+
+# Session timeout in seconds (24 hours)
+session_timeout = 86400
+
+[UI]
+# Name of the app and chatbot.
+name = "AI Interview Coach"
+
+# Description of the app and chatbot. This is used for HTML tags.
+description = "Your intelligent technical interview preparation assistant with real-time feedback"
+
+# Large size content are by default collapsed for a cleaner ui
+default_collapse_content = true
+
+# Hide the chain of thought details from the user
+hide_cot = false
+
+# Override default MUI light theme. (Check theme.ts)
+[UI.theme]
+primary_color = "#1976d2"
+background_color = "#f5f5f5"
+paper_color = "#ffffff"
+
+[UI.theme.light]
+background = "#fafafa"
+paper = "#ffffff"
+primary = "#1976d2"
+text_primary = "#212121"
+text_secondary = "#757575"
+
+[UI.theme.dark]
+background = "#121212"
+paper = "#1e1e1e"
+primary = "#90caf9" 
+text_primary = "#ffffff"
+text_secondary = "#b0b0b0"
+
+[meta]
+generated_by = "1.1.0"

@@ -1,0 +1,105 @@
+[project]
+name = "ai-interview-coach"
+version = "1.0.0"
+description = "AI-powered technical interview coaching system with RAG and local Mistral"
+authors = [
+    { name = "AI Interview Coach", email = "contact@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    # Core Framework
+    "fastapi>=0.104.1",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.5.0",
+    "sentence-transformers>=2.2.2",
+    "ollama>=0.1.7",
+    # Data Processing
+    "pandas>=2.1.3",
+    "numpy>=1.25.2",
+    "python-multipart>=0.0.6",
+    # Report Generation
+    "matplotlib>=3.8.2",
+    "jinja2>=3.1.2",
+    # Utilities
+    "pyyaml>=6.0.1",
+    "python-dotenv>=1.1.1",
+    "aiofiles>=23.2.1",
+    "httpx[http2]>=0.28.1",
+    "rich>=14.1.0",
+    "typer>=0.16.1",
+    "seaborn>=0.13.2",
+    "requests>=2.32.5",
+    "faiss-cpu>=1.12.0",
+    "chainlit>=1.0.0",
+    "watchfiles>=0.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "pytest-asyncio>=0.21.1",
+    "black>=23.11.0",
+    "isort>=5.12.0",
+    "flake8>=6.1.0",
+]
+prod = [
+    "gunicorn>=21.2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/ai-interview-coach"
+Repository = "https://github.com/yourusername/ai-interview-coach"
+Issues = "https://github.com/yourusername/ai-interview-coach/issues"
+
+
+[tool.black]
+line-length = 100
+target-version = ['py311', 'py312']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+    "--verbose",
+]
+filterwarnings = [
+    "ignore::UserWarning",
+    "ignore::DeprecationWarning",
+]

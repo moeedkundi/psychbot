@@ -1,0 +1,168 @@
+/* AI Interview Coach - Custom Styling */
+
+/* Modern gradient background */
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main chat container */
+.chainlit-chat-container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Header styling */
+.chainlit-header {
+    background: linear-gradient(90deg, #1976d2, #42a5f5);
+    border-radius: 16px 16px 0 0;
+    padding: 16px 24px;
+    color: white;
+    text-align: center;
+}
+
+/* Message bubbles */
+.chainlit-user-message {
+    background: linear-gradient(135deg, #4CAF50, #81C784);
+    color: white;
+    border-radius: 20px 20px 4px 20px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.chainlit-assistant-message {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border: 1px solid #dee2e6;
+    border-radius: 20px 20px 20px 4px;
+    padding: 12px 16px;
+    margin: 8px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Code blocks */
+pre {
+    background: #1e1e1e;
+    color: #f8f8f2;
+    border-radius: 8px;
+    padding: 16px;
+    overflow-x: auto;
+    border-left: 4px solid #1976d2;
+}
+
+/* Score bars and progress */
+.score-bar {
+    background: linear-gradient(90deg, #ff4444, #ffaa00, #00aa00);
+    height: 8px;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+/* Input field */
+.chainlit-input {
+    border: 2px solid #e0e0e0;
+    border-radius: 24px;
+    padding: 12px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.chainlit-input:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+    outline: none;
+}
+
+/* Buttons */
+.chainlit-button {
+    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+}
+
+.chainlit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(25, 118, 210, 0.4);
+}
+
+/* Status indicators */
+.status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.status-success {
+    background: rgba(76, 175, 80, 0.1);
+    color: #2e7d32;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.status-warning {
+    background: rgba(255, 152, 0, 0.1);
+    color: #f57c00;
+    border: 1px solid rgba(255, 152, 0, 0.3);
+}
+
+.status-error {
+    background: rgba(244, 67, 54, 0.1);
+    color: #c62828;
+    border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+/* Loading animations */
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.loading-indicator {
+    animation: pulse 1.5s ease-in-out infinite;
+    color: #1976d2;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .chainlit-chat-container {
+        margin: 10px;
+        border-radius: 12px;
+    }
+    
+    .chainlit-header {
+        padding: 12px 16px;
+        border-radius: 12px 12px 0 0;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #1565c0, #1976d2);
+}

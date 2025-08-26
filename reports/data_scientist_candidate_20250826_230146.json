@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-26T23:01:46.325235",
+    "report_type": "candidate",
+    "session_id": null
+  },
+  "content": "# Interview Report\n\n**Candidate:** Anonymous  \n**Role:** data_scientist  \n**Level:** mid  \n**Date:** 2025-08-26 23:01\n\n## Performance Summary\n\n- **Overall Score:** 3.9/5.0\n- **Questions Completed:** 2\n- **Performance Range:** 3.8 - 4.0\n\n### Dimension Performance\n- **Technical Accuracy:** 4.0/5.0\n- **Clarity Communication:** 5.0/5.0\n- **Completeness Depth:** 4.0/5.0\n- **Problem Solving:** 3.0/5.0\n- **Practical Application:** 4.0/5.0\n\n## Key Insights\n\n- The interview demonstrated strong clarity of communication, showcasing your ability to effectively convey complex ideas. This is an area where you should continue to build upon.\n- While problem-solving skills were evident in some parts of the conversation, there was a noticeable lack of depth and nuance in addressing certain problems. Focus on developing more robust strategies for tackling data-driven challenges.\n\n## Recommendations\n\n- Practice articulating your thought process when approaching complex problems, highlighting key concepts and assumptions. This will help you better articulate your solutions and demonstrate expertise.\n- Seek out opportunities to engage with diverse datasets and problem types. This will allow you to refine your analytical skills and develop a more comprehensive understanding of data-driven decision-making.\n\n## Detailed Question Analysis\n\n\n### Question 1: general (medium)\n\n**Score:** 4.0/5.0\n\n**Strengths:**\n- Response provided\n\n**Areas for Improvement:**\n- Continue learning\n\n### Question 2: general (medium)\n\n**Score:** 3.8/5.0\n\n**Strengths:**\n- Response provided\n\n**Areas for Improvement:**\n- Continue learning",
+  "interview_data": {
+    "session_info": {
+      "role": "data_scientist",
+      "level": "mid",
+      "total_questions": 3,
+      "current_question": 0
+    },
+    "questions_and_answers": [
+      {
+        "question_number": 1,
+        "question_id": "q_1",
+        "question_content": "Question content",
+        "candidate_answer": "Candidate answer",
+        "topic": "general",
+        "difficulty": "medium",
+        "score": 4.0,
+        "score_breakdown": {
+          "technical_accuracy": {
+            "score": 4.0,
+            "weight": 1.0,
+            "rationale": "Score: 4.0"
+          },
+          "clarity_communication": {
+            "score": 5.0,
+            "weight": 1.0,
+            "rationale": "Score: 5.0"
+          },
+          "completeness_depth": {
+            "score": 4.0,
+            "weight": 1.0,
+            "rationale": "Score: 4.0"
+          },
+          "problem_solving": {
+            "score": 3.0,
+            "weight": 1.0,
+            "rationale": "Score: 3.0"
+          },
+          "practical_application": {
+            "score": 4.0,
+            "weight": 1.0,
+            "rationale": "Score: 4.0"
+          }
+        },
+        "feedback": {
+          "overall_rating": 4.0,
+          "strengths": [
+            "Response provided"
+          ],
+          "improvements": [
+            "Continue learning"
+          ],
+          "suggestions": [
+            "Practice more"
+          ],
+          "resources": [
+            "Study materials"
+          ]
+        }
+      },
+      {
+        "question_number": 2,
+        "question_id": "q_2",
+        "question_content": "Question content",
+        "candidate_answer": "Candidate answer",
+        "topic": "general",
+        "difficulty": "medium",
+        "score": 3.8,
+        "score_breakdown": {
+          "technical_accuracy": {
+            "score": 4.0,
+            "weight": 1.0,
+            "rationale": "Score: 4.0"
+          },
+          "clarity_communication": {
+            "score": 5.0,
+            "weight": 1.0,
+            "rationale": "Score: 5.0"
+          },
+          "completeness_depth": {
+            "score": 4.0,
+            "weight": 1.0,
+            "rationale": "Score: 4.0"
+          },
+          "problem_solving": {
+            "score": 3.0,
+            "weight": 1.0,
+            "rationale": "Score: 3.0"
+          },
+          "practical_application": {
+            "score": 4.0,
+            "weight": 1.0,
+            "rationale": "Score: 4.0"
+          }
+        },
+        "feedback": {
+          "overall_rating": 3.8,
+          "strengths": [
+            "Response provided"
+          ],
+          "improvements": [
+            "Continue learning"
+          ],
+          "suggestions": [
+            "Practice more"
+          ],
+          "resources": [
+            "Study materials"
+          ]
+        }
+      }
+    ],
+    "scores": [
+      {
+        "overall_score": 4.0,
+        "category_scores": {
+          "technical_accuracy": 4.0,
+          "clarity_communication": 5.0,
+          "completeness_depth": 4.0,
+          "problem_solving": 3.0,
+          "practical_application": 4.0
+        },
+        "rationale": {
+          "technical_accuracy": "- Technical Accuracy: 4",
+          "clarity_communication": "- Clarity: 5",
+          "completeness_depth": "- Completeness: 4",
+          "problem_solving": "- Problem Solving: 3",
+          "practical_application": "- Practical Application: 4"
+        }
+      },
+      {
+        "overall_score": 3.8,
+        "category_scores": {
+          "technical_accuracy": 4.0,
+          "clarity_communication": 5.0,
+          "completeness_depth": 4.0,
+          "problem_solving": 3.0,
+          "practical_application": 4.0
+        },
+        "rationale": {
+          "technical_accuracy": "- Technical Accuracy: 4",
+          "clarity_communication": "- Clarity: 5",
+          "completeness_depth": "- Completeness: 4",
+          "problem_solving": "- Problem Solving: 3",
+          "practical_application": "- Practical Application: 4"
+        }
+      }
+    ],
+    "feedback": [
+      {
+        "overall_rating": 4.0,
+        "feedback": "The candidate demonstrated strong technical accuracy and clarity in their answer, but lacked specificity on how to track indirect benefits (e.g., improved decision-making) and underemphasized the importance of contextualizing ROI calculations.",
+        "detailed_scores": {
+          "technical_accuracy": 4.0,
+          "clarity_communication": 5.0,
+          "completeness_depth": 4.0,
+          "problem_solving": 3.0,
+          "practical_application": 4.0
+        },
+        "follow_up_question": null
+      },
+      {
+        "overall_rating": 3.8,
+        "feedback": "The candidate demonstrates a solid understanding of project prioritization frameworks and methodologies, but could benefit from more specific examples or case studies to illustrate their approach. Additionally, while they mention using agile methodologies, it would be helpful to see how they apply them in practice.",
+        "detailed_scores": {
+          "technical_accuracy": 4.0,
+          "clarity_communication": 5.0,
+          "completeness_depth": 4.0,
+          "problem_solving": 3.0,
+          "practical_application": 4.0
+        },
+        "follow_up_question": null
+      }
+    ],
+    "performance_summary": {
+      "overall_performance": {
+        "average_score": 3.9,
+        "score_range": "3.8 - 4.0",
+        "score_std_dev": 0.14,
+        "total_questions": 2
+      },
+      "dimension_performance": {
+        "technical_accuracy": 4.0,
+        "clarity_communication": 5.0,
+        "completeness_depth": 4.0,
+        "problem_solving": 3.0,
+        "practical_application": 4.0
+      },
+      "topic_performance": {
+        "general": 3.9
+      },
+      "strongest_dimension": "clarity_communication",
+      "weakest_dimension": "problem_solving",
+      "strongest_topic": "general",
+      "focus_topic": "general",
+      "performance_distribution": {
+        "good": 2
+      },
+      "improvement_themes": [
+        "continue",
+        "learning"
+      ],
+      "suggestion_themes": [
+        "practice",
+        "more"
+      ]
+    },
+    "generated_at": "2025-08-26 22:59:52.485714"
+  }
+}
