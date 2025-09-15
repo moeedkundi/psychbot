@@ -1,0 +1,237 @@
+role: "software_engineer"
+levels:
+  junior:
+    dimensions:
+      - name: "technical_knowledge"
+        weight: 0.25
+        description: "Understanding of CS fundamentals, data structures, algorithms, and programming concepts"
+        criteria:
+          excellent: "Strong grasp of data structures, algorithms, and complexity analysis. Understands OOP, design patterns basics. Can explain trade-offs clearly."
+          good: "Solid understanding of common data structures and algorithms. Good OOP knowledge. Minor gaps in advanced concepts."
+          fair: "Basic understanding of fundamental concepts. Can implement simple algorithms. May struggle with complexity analysis."
+          poor: "Significant gaps in CS fundamentals. Cannot implement basic algorithms or explain core concepts."
+      
+      - name: "coding_ability"
+        weight: 0.30
+        description: "Ability to write clean, functional code and solve programming problems"
+        criteria:
+          excellent: "Writes clean, efficient, readable code. Strong problem-solving skills. Good debugging abilities. Follows best practices."
+          good: "Produces working solutions with decent code quality. Can debug effectively. Some minor style or efficiency issues."
+          fair: "Can write functional code but may be inefficient or hard to read. Struggles with complex problems."
+          poor: "Difficulty writing working code. Major issues with syntax, logic, or problem-solving approach."
+      
+      - name: "system_understanding"
+        weight: 0.15
+        description: "Knowledge of web technologies, databases, and basic system concepts"
+        criteria:
+          excellent: "Good understanding of client-server architecture, REST APIs, databases. Knows basic security and performance concepts."
+          good: "Understands web development basics, can work with APIs and databases. Some gaps in deeper concepts."
+          fair: "Basic knowledge of web technologies. Limited understanding of how systems work together."
+          poor: "Minimal understanding of system architecture or web technologies."
+      
+      - name: "collaboration_skills"
+        weight: 0.15
+        description: "Ability to work in teams, communicate, and use development tools"
+        criteria:
+          excellent: "Excellent communication. Proficient with Git, debugging tools, IDEs. Asks good questions. Takes feedback well."
+          good: "Good team player. Comfortable with version control and basic tools. Communicates adequately."
+          fair: "Can work with others but communication may need improvement. Basic tool proficiency."
+          poor: "Struggles with team collaboration or communication. Limited tool knowledge."
+      
+      - name: "learning_aptitude"
+        weight: 0.10
+        description: "Ability to learn new concepts and technologies quickly"
+        criteria:
+          excellent: "Quick learner. Shows curiosity and initiative. Applies new concepts immediately. Self-directed learning."
+          good: "Learns new concepts well with guidance. Shows interest in growth."
+          fair: "Can learn with support but may need repeated explanation. Limited self-learning."
+          poor: "Struggles to grasp new concepts. Lacks initiative in learning."
+      
+      - name: "quality_practices"
+        weight: 0.05
+        description: "Understanding of testing, documentation, and code quality"
+        criteria:
+          excellent: "Writes tests proactively. Good documentation. Understands importance of code reviews and quality."
+          good: "Can write basic tests. Documents code when asked. Appreciates quality practices."
+          fair: "Limited testing experience. Basic documentation. Needs guidance on quality practices."
+          poor: "No testing experience. Poor or no documentation. Doesn't understand quality importance."
+
+  mid:
+    dimensions:
+      - name: "technical_knowledge"
+        weight: 0.25
+        description: "Deep understanding of software engineering principles and advanced concepts"
+        criteria:
+          excellent: "Expert in multiple domains. Deep understanding of distributed systems, databases, networking. Can design complex systems."
+          good: "Strong technical knowledge across stack. Good understanding of system design and architecture patterns."
+          fair: "Solid in primary domain but gaps in broader system knowledge. Basic system design skills."
+          poor: "Technical knowledge not sufficient for mid-level. Cannot design systems independently."
+      
+      - name: "coding_ability"
+        weight: 0.25
+        description: "Production-quality code with optimization and maintainability"
+        criteria:
+          excellent: "Writes production-ready, optimized code. Strong testing practices. Excellent code organization and patterns."
+          good: "Consistently produces quality code. Good testing. Understands performance implications."
+          fair: "Functional code but may lack optimization or best practices. Inconsistent testing."
+          poor: "Code quality below mid-level standards. Poor testing or optimization skills."
+      
+      - name: "system_design"
+        weight: 0.20
+        description: "Ability to design scalable, maintainable systems"
+        criteria:
+          excellent: "Designs elegant, scalable solutions. Considers all aspects: security, performance, maintainability. Great trade-off analysis."
+          good: "Can design good systems with proper guidance. Understands scalability and reliability patterns."
+          fair: "Basic system design skills. May miss important considerations or over-engineer."
+          poor: "Cannot design systems beyond simple applications. Lacks understanding of scale."
+      
+      - name: "problem_solving"
+        weight: 0.15
+        description: "Complex problem-solving and debugging abilities"
+        criteria:
+          excellent: "Systematically approaches complex problems. Excellent debugging skills. Creative solutions. Handles ambiguity well."
+          good: "Good problem-solving approach. Can debug complex issues. Handles most challenges independently."
+          fair: "Can solve standard problems but struggles with novel challenges. Needs help with complex debugging."
+          poor: "Limited problem-solving skills. Cannot handle complex or ambiguous problems."
+      
+      - name: "leadership_mentoring"
+        weight: 0.10
+        description: "Technical leadership and ability to mentor others"
+        criteria:
+          excellent: "Natural technical leader. Excellent mentor. Drives best practices. Influences team decisions positively."
+          good: "Good mentor to juniors. Contributes to team standards. Takes ownership of components."
+          fair: "Can guide others occasionally. Limited leadership initiative."
+          poor: "No leadership or mentoring capabilities. Works only independently."
+      
+      - name: "business_impact"
+        weight: 0.05
+        description: "Understanding of business context and delivering value"
+        criteria:
+          excellent: "Strong business acumen. Balances technical excellence with business needs. Proposes impactful solutions."
+          good: "Understands business goals. Makes pragmatic technical decisions."
+          fair: "Basic understanding of business impact. May over-focus on technical aspects."
+          poor: "No consideration of business context. Cannot connect work to business value."
+
+  senior:
+    dimensions:
+      - name: "technical_expertise"
+        weight: 0.20
+        description: "Deep expertise and thought leadership in software engineering"
+        criteria:
+          excellent: "Recognized expert in multiple domains. Drives innovation. Sets technical direction. Solves novel, complex problems."
+          good: "Deep expertise in core areas. Strong across entire stack. Can tackle any technical challenge."
+          fair: "Strong in specialization but may lack breadth. Competent but not exceptional."
+          poor: "Technical skills not at senior level. Cannot provide technical leadership."
+      
+      - name: "architectural_design"
+        weight: 0.20
+        description: "Ability to architect complex, enterprise-scale systems"
+        criteria:
+          excellent: "Designs industry-leading architectures. Balances all concerns perfectly. Anticipates future needs. Sets architectural standards."
+          good: "Creates solid, scalable architectures. Good understanding of trade-offs. Can design for enterprise scale."
+          fair: "Can design systems but may miss subtleties. Limited experience with very large scale."
+          poor: "Cannot architect complex systems. Designs lack sophistication or scalability."
+      
+      - name: "strategic_thinking"
+        weight: 0.20
+        description: "Long-term technical vision and strategic decision-making"
+        criteria:
+          excellent: "Develops technical strategy aligned with business. Anticipates technology trends. Makes excellent build/buy decisions."
+          good: "Good strategic thinking. Can plan technical roadmaps. Understands technology lifecycle."
+          fair: "Some strategic thinking but may be too tactical. Limited long-term vision."
+          poor: "No strategic thinking. Cannot plan beyond immediate tasks."
+      
+      - name: "leadership_influence"
+        weight: 0.15
+        description: "Technical leadership across organization"
+        criteria:
+          excellent: "Influences engineering culture. Mentors senior engineers. Drives organization-wide initiatives. Respected thought leader."
+          good: "Strong technical leader. Good mentor. Influences team and cross-team decisions."
+          fair: "Leads within team but limited broader influence. Mentoring could be stronger."
+          poor: "No leadership presence. Cannot influence or mentor effectively."
+      
+      - name: "communication_collaboration"
+        weight: 0.15
+        description: "Communication with all stakeholders including executives"
+        criteria:
+          excellent: "Exceptional communicator. Translates complex technical concepts for any audience. Builds strong relationships across organization."
+          good: "Communicates well with technical and non-technical stakeholders. Good collaboration skills."
+          fair: "Adequate communication but may struggle with executives or conflict resolution."
+          poor: "Poor communication skills. Cannot explain technical decisions to stakeholders."
+      
+      - name: "innovation_impact"
+        weight: 0.10
+        description: "Driving innovation and measurable business impact"
+        criteria:
+          excellent: "Drives significant innovation. Creates competitive advantages. Measurable large-scale business impact. Patents or publications."
+          good: "Contributes to innovation. Clear positive business impact. Improves engineering effectiveness."
+          fair: "Some innovation but limited impact. Focuses mainly on execution."
+          poor: "No innovation or significant impact. Does not drive improvements."
+
+evaluation_process:
+  preparation:
+    - Review candidate's portfolio, GitHub, and technical blog if available
+    - Prepare role-specific technical challenges
+    - Select system design problems appropriate to level
+    - Coordinate with team for pair programming session
+  
+  interview_structure:
+    - Phone screen with coding challenge (45-60 minutes)
+    - Technical interview with algorithms/data structures (60-90 minutes)
+    - System design interview (60-90 minutes, mid/senior only)
+    - Pair programming or take-home project (2-4 hours)
+    - Behavioral interview with team fit assessment (45-60 minutes)
+    - Architecture deep dive (60 minutes, senior only)
+  
+  coding_assessment:
+    - Algorithm implementation and optimization
+    - Code quality and style evaluation
+    - Testing approach and coverage
+    - Performance analysis and optimization
+    - Code review of existing code (mid/senior)
+  
+  system_design_assessment:
+    - Problem understanding and clarification
+    - High-level architecture
+    - Detailed component design
+    - Scale and performance considerations
+    - Trade-off analysis and decision-making
+  
+  scoring:
+    - Each dimension scored 1-4 (poor to excellent)
+    - Weighted average for overall score
+    - Specific examples documented for each rating
+    - Comparison with team's current skill distribution
+  
+  decision_criteria:
+    hire_strong: "Overall score >= 3.5, no dimension below 'good', clear level fit"
+    hire_standard: "Overall score >= 3.0, maximum one 'fair' dimension"
+    hire_with_conditions: "Score >= 2.8, specific development plan for gaps"
+    no_hire: "Score < 2.8 or multiple 'poor' dimensions"
+
+level_indicators:
+  junior_to_mid:
+    - Can work independently on medium complexity tasks
+    - Designs component-level solutions
+    - Mentors interns or new graduates
+    - 2-5 years typical experience
+  
+  mid_to_senior:
+    - Leads large projects independently
+    - Designs system-level architectures
+    - Influences technical decisions beyond immediate team
+    - 5-10+ years typical experience
+  
+  senior_plus:
+    - Sets technical direction for organization
+    - Recognized expertise in industry
+    - Drives innovation and strategic initiatives
+    - 10+ years typical experience
+
+calibration_notes:
+  - Consider specific tech stack requirements but don't overweight
+  - Evaluate growth trajectory and learning velocity
+  - Factor in domain expertise for specialized roles
+  - Balance individual contribution with team multiplication
+  - Account for different backgrounds (bootcamp, self-taught, CS degree)
+  - Review and calibrate rubric quarterly based on hiring outcomes

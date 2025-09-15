@@ -189,7 +189,8 @@ class QuestionAsker:
                 'role': role,
                 'level': level,
                 'total_questions': total_questions,
-                'current_question': 0
+                'current_question': 0,
+                'start_time': session.start_time.isoformat()
             }
         }
     

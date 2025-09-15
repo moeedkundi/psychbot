@@ -44,10 +44,16 @@ async def start():
             tooltip="🔬 Data Scientist - Mid Level"
         ),
         cl.Action(
-            name="data_scientist_senior", 
+            name="data_scientist_senior",
             payload={"value": "data_scientist,senior"},
             label="🔬 Data Scientist (Senior)",
             tooltip="🔬 Data Scientist - Senior Level"
+        ),
+        cl.Action(
+            name="software_engineer_junior",
+            payload={"value": "software_engineer,junior"},
+            label="💻 Software Engineer (Junior)",
+            tooltip="💻 Software Engineer - Junior Level"
         ),
         cl.Action(
             name="software_engineer_mid",
@@ -76,7 +82,7 @@ async def start():
                "Ready to practice your technical interview skills? Choose your role and level below:\n\n"
                "**📊 Our Database:**\n"
                "- 🔬 **Data Scientist**: 170+ questions across all levels\n"
-               "- 💻 **Software Engineer**: 50+ questions (Mid/Senior)\n" 
+               "- 💻 **Software Engineer**: 75+ questions across all levels\n" 
                "- 🤖 **GenAI Engineer**: 25+ questions (Mid level)\n\n"
                "**✨ What you'll get:**\n"
                "- ⚡ Real-time AI evaluation\n"
@@ -235,10 +241,16 @@ async def show_welcome_screen():
             tooltip="🔬 Data Scientist - Mid Level"
         ),
         cl.Action(
-            name="data_scientist_senior", 
+            name="data_scientist_senior",
             payload={"value": "data_scientist,senior"},
             label="🔬 Data Scientist (Senior)",
             tooltip="🔬 Data Scientist - Senior Level"
+        ),
+        cl.Action(
+            name="software_engineer_junior",
+            payload={"value": "software_engineer,junior"},
+            label="💻 Software Engineer (Junior)",
+            tooltip="💻 Software Engineer - Junior Level"
         ),
         cl.Action(
             name="software_engineer_mid",
@@ -267,7 +279,7 @@ async def show_welcome_screen():
                "Ready to practice your technical interview skills? Choose your role and level below:\n\n"
                "**📊 Our Database:**\n"
                "- 🔬 **Data Scientist**: 170+ questions across all levels\n"
-               "- 💻 **Software Engineer**: 50+ questions (Mid/Senior)\n" 
+               "- 💻 **Software Engineer**: 75+ questions across all levels\n" 
                "- 🤖 **GenAI Engineer**: 25+ questions (Mid level)\n\n"
                "**✨ What you'll get:**\n"
                "- ⚡ Real-time AI evaluation\n"

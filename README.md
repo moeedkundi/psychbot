@@ -174,7 +174,7 @@ CHAINLIT_PORT=8080
 ## Available Question Types
 
 - **Data Science**: Statistics, ML algorithms, feature engineering, model evaluation, SQL, business communication (170+ questions)
-- **Software Engineering**: Algorithms, system design, coding challenges (50+ questions)
+- **Software Engineering**: Algorithms, system design, coding challenges (75+ questions)
 - **GenAI Engineering**: LLM architectures, RAG systems, prompt engineering (25+ questions)
 
 ## Commands During Interview
