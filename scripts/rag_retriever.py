@@ -15,10 +15,9 @@ import yaml
 from sentence_transformers import SentenceTransformer
 import httpx
 
-# Import configuration
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from src.config import chroma_config, embedding_config
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
@@ -38,16 +37,16 @@ class RAGRetriever:
         Uses configuration from environment variables by default.
         
         Args:
-            data_dir: Directory for ChromaDB storage (uses config if None)
+            data_dir: Directory for FAISS storage (uses env var if None)
             docs_dir: Directory containing source documents
-            embedding_model: SentenceTransformers model name (uses config if None)
-            collection_name: ChromaDB collection name (uses config if None)
+            embedding_model: SentenceTransformers model name (uses env var if None)
+            collection_name: FAISS collection name (uses env var if None)
         """
-        self.data_dir = Path(data_dir or chroma_config.db_path)
+        self.data_dir = Path(data_dir or os.getenv("VECTOR_DB_PATH", "./data/vector_db"))
         self.docs_dir = Path(docs_dir)
-        self.embedding_model_name = embedding_model or embedding_config.model_name
-        self.collection_name = collection_name or chroma_config.collection_name
-        self.device = embedding_config.device
+        self.embedding_model_name = embedding_model or os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
+        self.collection_name = collection_name or os.getenv("COLLECTION_NAME", "interview_knowledge")
+        self.device = os.getenv("EMBEDDING_DEVICE", "cpu")
         
         # Initialize components
         self.client = None
